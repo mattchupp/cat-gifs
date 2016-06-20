@@ -9,7 +9,7 @@ var gifsrc = "gifs/";
 var col = 1; // for the grid
 
 // HOW MANY GIFS DO YOU HAVE?
-var gifCount = 31;
+var gifCount = 42;
 
 /*
  -- for loop to build the img src links
