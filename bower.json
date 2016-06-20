@@ -1,0 +1,21 @@
+{
+  "name": "catgif",
+  "authors": [
+    "mattchupp <mattlchupp@gmail.com>"
+  ],
+  "description": "website with cat gifs! :)",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "toast-css": "git://github.com/daneden/Toast.git#^1.1.0"
+  }
+}
