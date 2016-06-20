@@ -7,73 +7,20 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="bower_components/toast-css/css/grid.css">
 
-    <style>
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="css/main.css">
 
-      body {
-        margin: 0;
-        background-color: #000;
-      }
-
-      .container {
-        max-width: 1200px;
-        margin: auto;
-      }
-
-      .gifs {
-        width: 300px;
-        height: 200px;
-        margin: auto;
-      }
-
-      .footer {
-        color: #fff;
-        bottom: 0;
-        position: fixed;
-      }
-
-      @media screen and (min-width: 47em) {
-        .container {
-          display: block
-          margin: auto;
-        }
-      }
-
-    </style>
   </head>
   <body>
+
+    <!-- MEOW MEOW MEOW -->
 
     <div class="container">
       <div id="cats" class="grid"></div>
     </div>
 
-
-    <script type="text/javascript">
-
-      // directory for the gifs
-      var gifsrc = "gifs/";
-
-      // HOW MANY GIFS DO YOU HAVE?
-      var gifCount = 31;
-
-      /*
-       -- for loop to build the img src links
-       -- *var gif = build link
-       -- *var imgHTML = builds the tags
-      */
-      var col = 1;
-
-      for (var i = 1; i <= gifCount; i++ ) {
-        var gif = gifsrc + "gif" + i + ".gif";
-
-        if (i % 4 == 0) {
-          col = 1;
-        }
-
-        var imgHTML = '<div class="grid__col grid__col--'+ col +'-of-4"><img class="gifs" src="'+ gif +'"></div>';
-        $("#cats").append(imgHTML);
-      }
-
-    </script>
-
+    <!-- This javascript file runs the show -->
+    <script src="js/gifloader.js"></script>
+    
   </body>
 </html>

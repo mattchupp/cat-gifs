@@ -1,0 +1,30 @@
+/* all of the styles */
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.gifs {
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+
+.footer {
+  color: #fff;
+  bottom: 0;
+  position: fixed;
+}
+
+@media screen and (min-width: 47em) {
+  .container {
+    display: block;
+    margin: auto;
+  }
+}
